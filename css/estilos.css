@@ -29,7 +29,6 @@ border-right:solid 2px black;
 }
 .menu-superior li a:hover{
     color:#E2430C;
-    background-color: #02506E;
     text-decoration: overline;
 }
 li a{
@@ -65,7 +64,7 @@ width: 50%;
 .coloramarillo{
     background-color: rgb(251, 255, 0);
 }   
-    .final{background-color: #1db872;
+.final{background-color: #09e883;
         width: 100%;
     height: 120px;}
 .formulario{
@@ -75,13 +74,32 @@ width: 50%;
 form{
     padding: 15px;
 }
-input{
+input[type=text]{
     width: 100%;
     padding: 5px;
     border-radius: 5px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(20, 200, 30, 0.3);
+    padding: 10px;
+    color: rgb(51, 7, 246);
+}
+input[type=submit]:hover{
+background-color: rgb(20, 200,30, 0.8);
+cursor: pointer;
 }
 textarea{
     width: 100%;
     height: 100px;
 
+}
+li a img{
+    width: 32px;
+}
+li a img:hover{
+    opacity: 30%;
+}
+.Derechos{
+    padding: 15px;
 }
