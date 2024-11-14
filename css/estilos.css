@@ -16,7 +16,10 @@
 .menu-superior li{ 
 display:inline;
 padding: 5px;
-border-right:solid 2px black;
+
+}
+.borderderecho li{
+    border-right:solid 2px black;
 }
 .menu-superior li:last-child{
     border-right:none;
